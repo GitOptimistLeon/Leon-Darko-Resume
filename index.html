@@ -1,0 +1,476 @@
+<!DOCTYPE <html>
+
+</html>
+<html lang="en" dir="ltr">
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8">
+  <title>Leon Darko | Developer </title>
+  <meta name="description" content="A Resume site for Leon Darko, a web deveoper and mobile app developer">
+  <meta name="keywords" content="Leon Darko, Leon Darko Resume,
+  Leon Darko CV, Resume, CV, Moblie App Developer, Web Developer, Web designer">
+
+  <!-- Mobile Specific meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Font-awesome and Google Icons -->
+  <script src="https://kit.fontawesome.com/dcd356c426.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- External Css  -->
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/ionicons.css">
+  <link rel="stylesheet" href="css/master.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Favicons -->
+  <link rel="icon" href="favicon.ico">
+
+  <!-- Load Fonts -->
+</head>
+
+<body onload="myFunctionLoader()" class="w3-black">
+  <!-- Preloader -->
+<div id="loader">
+    <img src="images/logo-gif.gif" alt="Logo gif" style="width:100%;">
+</div>
+  <!-- Preloader -->
+
+<div style="display:none;" id="myDiv">
+  <!-- nav with name on the left and email on the right -->
+  <div class="topnav w3-contain animate-top-topnav w3-padding-10">
+    <a class="img" href="https://gitoptimistleon.github.io/leon-darko/">
+      <img  src="images/logo2.png" alt="Logo" style="width:35px;">
+    </a>
+    <a href="https://gitoptimistleon.github.io/leon-darko/" class="w3-wide w3-hide-small" onmouseover="typeWriter()">LEON DARKO</a>
+    <div class="topnavright">
+      <a href="mailto:work.leondarko@gmail.com"
+        class="w3-wide w3-hide-medium w3-hide-small" onmouseover="typeWriter()">
+        work.leondarko@gmail.com
+      </a>
+
+      <a href="#" onclick="openNav()" class="w3-hide-large">
+        <i class="fa fa-bars w3-large w3-text-white w3-hover-text-red"></i>
+      </a>
+    </div>
+  </div>
+
+<!-- Fullscreen Navigation -->
+
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <a href="#"><img  src="images/logo2.png" alt="Logo" style="width:35px; margin:10 auto;"></a>
+      <a href="#about">About</a>
+      <a href="#resume">Resume</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+      <a href="#" class="w3-tiny">Designed & Built by Leon Darko</a>
+    </div>
+
+  </div><!-- Fullscreen Navigation -->
+  <!-- Start -->
+  <div id="about">
+    <div class="w3-row content">
+      <div class="w3-col s12 m5 l6 w3-padding-medium">
+        <div class="animate-left-greeting-card flip-card w3-center w3-hide-small w3-hide-medium">
+          <div class="flip-card-inner w3-round">
+            <div class="flip-card-front">
+              <div class="w3-card-2 w3-black">
+                <img class="w3-round w3-image" src="images/leon.jpeg" alt="Image of Leon">
+                <div class="w3-padding">
+                  <div class="w3-center w3-padding-medium">
+                    <h3 id="greeting" class="w3-margin-0 w3-wide w3-text-white mySlides w3-animate-opacity">
+                      Hello
+                    </h3>
+                    <h3 id="greeting" class="w3-margin-0 w3-wide w3-text-white mySlides w3-animate-opacity">
+                    Welcome
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="flip-card-back w3-round">
+              <div class="w3-card-2 w3-black">
+                <img class="w3-round" src="images/leon.jpeg" alt="Image of Leon" style="width:100%;">
+                <div class="w3-padding">
+                  <div class="w3-center w3-padding">
+                    <a href="mailto:work.leondarko@gmail.com">
+                      <button class="zoom w3-button w3-border w3-border-white w3-hover-white w3-wide w3-left-align
+                        w3-black w3-medium w3-card w3-round-xxlarge">
+                        Say Hello
+                      </button>
+                    </a>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w3-card-2 w3-black w3-hide-large w3-round w3-margin-bottom">
+          <img class="w3-round w3-image" src="images/leon.jpeg" alt="Image of Leon">
+        </div>
+        <div class="w3-center icon">
+          <a class="w3-hover-text-red w3-text-grey" href="https://github.com/GitOptimistLeon"><i class="fab fa-github zoom"></i></a>
+          <a class="w3-hover-text-blue w3-text-grey w3-text-white" href="https://www.linkedin.com/in/leon-darko-914401188/"><i class="fab fa-linkedin zoom"></i></a>
+          <a class="w3-hover-text-light-blue w3-text-grey" href="https://twitter.com/thah_leon"><i class="fab fa-twitter zoom"></i></a>
+          <a class="w3-hover-text-brown w3-text-grey" href="https://www.instagram.com/thah_leon/"><i class="fab fa-instagram zoom"></i></a>
+        </div>
+      </div>
+      <div class="w3-col s12 m7 l6 w3-padding-medium">
+        <!-- About -->
+        <p class="jobtitle w3-text-red w3-wide w3-hide-small" id="typewrite"></p>
+        <p class="jobtitle w3-text-red w3-wide w3-hide-large w3-hide-medium" id="typewrite">Web Developer & Flutter Developer</p>
+        <h1 class="animate-opacity-name w3-wide" id="name" onmouseover="typeWriter()">LEON DARKO</h1>
+        <p class="about animate-opacity-about">I am a highly optimistic and adaptable individual with an interest in Web Development, and Mobile App Development.
+        Mastery is my goal now, and also to make the most out of the skills and knowledge I have and will acquire.</p>
+        <br>
+        <a href="download/Resume.pdf" download>
+          <button onclick="snackBarFunction()" class="zoom w3-button w3-wide animate-opacity-download-btn
+            w3-black w3-medium w3-card w3-border w3-border-red w3-hover-red w3-round-xxlarge">
+            Resume
+          </button>
+          <!-- <div id="snackbar">Downloading shortly</div> -->
+        </a>
+
+        <br><br>
+        <a href="mailto:work.leondarko@gmail.com">
+          <button class="zoom w3-button w3-border w3-border-white w3-hover-white w3-wide w3-left-align
+              w3-black w3-medium w3-card w3-round-xxlarge animate-opacity-hire-btn">
+            Say Hello
+          </button>
+        </a>
+
+      </div><!-- About -->
+    </div><!-- Start -->
+
+    <div class="w3-center w3-hide-small" onmouseover="typeWriter()">
+      <a href="#resume">
+        <i class="fas fa-arrow-down w3-hover-text-red arrow-btn animate-bottom-arrow-down"></i>
+      </a>
+    </div>
+
+  </div><!-- Main section -->
+
+  <!-- Sticky Navigation -->
+  <div class="w3-center w3-hide-small w3-margin-topcustom">
+    <div id="navbar">
+      <a href="#about" class="w3-wide">About</a>
+      <a href="#resume" class="w3-wide">Resume</a>
+      <a href="#skills" class="w3-wide">Skills</a>
+      <a href="#contact" class="w3-wide">Contact</a>
+      <a href="download/Resume.pdf" download>
+        <button onclick="snackBarFunction()" class="w3-button w3-wide zoom
+        w3-black w3-small w3-card w3-border w3-border-red w3-hover-red w3-round-xxlarge">
+          Resume
+        </button>
+      </a>
+    </div>
+  </div><!-- Sticky Navigation -->
+
+  <div id="resume" class="parallax" style="background: url(images/education.jpg) fixed no-repeat center; background-size: cover;"></div>
+
+
+  <!-- Resume -->
+  <div class="content">
+
+    <i class="fas fa-school w3-hide-small w3-text-white w3-right w3-xlarge w3-padding-bottom"></i>
+
+    <h1 class="sub-heading w3-card">Education</h1>
+
+    <div class="w3-row">
+      <div class="w3-col s12 m6 l3 w3-padding-small zoom">
+        <i class="fas fa-laptop-code w3-text-red w3-xlarge w3-padding-bottom"></i>
+        <h6 class="w3-margin-0 sub-title">June 2020 - Present</h6>
+        <h6 class="w3-margin-0 w3-text-grey sub-title">Flutter with Dart • Udemy</h6>
+        <p class="w3-text-grey w3-padding-0">Instructor • Dr Angela Yu</p>
+        <h3 class="sub-title">Flutter Development</h3>
+        <h6 class="w3-margin-0 sub-title w3-text-grey">
+          Flutter is Google’s UI toolkit for building beautiful, natively compiled applications for mobile, web, and desktop from a single codebase.
+        </h6>
+      </div>
+      <div class="w3-col s12 m6 l3 w3-padding-small zoom">
+        <i class="fas fa-laptop-code w3-text-red w3-xlarge w3-padding-bottom"></i>
+        <h6 class="w3-margin-0 sub-title">July 2020 - Present</h6>
+        <h6 class="w3-margin-0 w3-text-grey sub-title">Web Course • Udemy</h6>
+        <p class="w3-text-grey w3-padding-0">Instructor • Dr Angela Yu</p>
+        <h3 class="sub-title">Web Development</h3>
+        <h6 class="w3-margin-0 sub-title w3-text-grey">
+          Becoming a full-stack web developer with this course. HTML, CSS, JavaScript, Node, React, MongoDB and more.
+        </h6>
+      </div>
+      <div class="w3-col s12 m6 l3 w3-padding-small zoom">
+        <i class="fas fa-graduation-cap w3-text-red w3-xlarge w3-padding-bottom"></i>
+        <h6 class="w3-margin-0 sub-title">2014 - 2018</h6>
+        <h6 class="w3-margin-0 w3-text-grey sub-title">Methodist University College Ghana </h6>
+        <h3 class="sub-title">BSc Information Technology</h3>
+        <h6 class="w3-margin-0 sub-title w3-text-grey">
+          College Education.
+        </h6>
+      </div>
+      <div class="w3-col s12 m6 l3 w3-padding-small zoom">
+        <i class="fas fa-chalkboard-teacher w3-text-red w3-xlarge w3-padding-bottom "></i>
+        <h6 class="w3-margin-0 sub-title">2009 - 2013</h6>
+        <h6 class="w3-margin-0 w3-text-grey sub-title">Koforidua Secondary Technical School </h6>
+        <h3 class="sub-title">West African Senior Certificate</h3>
+        <h6 class="w3-margin-0 sub-title w3-text-grey">
+          High School Education.
+        </h6>
+      </div>
+    </div>
+  </div>
+
+  <!-- Divider -->
+  <div class="divdercontainer">
+    <div class="divderinner"></div>
+  </div><!-- Divider -->
+
+<div class="parallax" style="background: url(images/black-star-sqarue.jpg) fixed no-repeat center; background-size: cover;"></div>
+
+  <div class="content">
+    <i class="fas fa-briefcase w3-text-white w3-right w3-hide-small w3-xlarge w3-padding-bottom"></i>
+    <h1 class="sub-heading w3-card ">Experience</h1>
+
+    <div class="w3-row">
+      <div class="w3-col s12 m6 l3 w3-padding-small zoom">
+        <i class="fas fa-business-time w3-text-red w3-xlarge w3-padding-bottom"></i>
+        <h6 class="w3-margin-0 sub-title"> July 2020 - Present</h6>
+        <h6 class="w3-margin-0 w3-text-grey sub-title">Personal Website</h6>
+        <h3 class="sub-title">Development</h3>
+        <h6 class="w3-margin-0 sub-title w3-text-grey">
+          I finally decided to start puting my work on the internet.
+        </h6>
+      </div>
+      <div class="w3-col s12 m6 l3 w3-padding-small zoom">
+        <i class="fas fa-business-time w3-text-red w3-xlarge w3-padding-bottom"></i>
+        <h6 class="w3-margin-0 sub-title">June 2020 – Present</h6>
+        <h6 class="w3-margin-0 w3-text-grey sub-title">Flutter Apps Portfolio</h6>
+        <h3 class="sub-title">Development</h3>
+        <h6 class="w3-margin-0 sub-title w3-text-grey">
+          Built over 10 flutter apps while learing on the course.
+        </h6>
+      </div>
+      <div class="w3-col s12 m6 l3 w3-padding-small zoom">
+        <i class="fas fa-business-time w3-text-red w3-xlarge w3-padding-bottom"></i>
+        <h6 class="w3-margin-0 sub-title">August 2019 – September 2019</h6>
+        <h6 class="w3-margin-0 w3-text-grey sub-title">Datacenter - Stanbic Bank</h6>
+        <h3 class="sub-title">Industrial Attachment</h3>
+        <h6 class="w3-margin-0 sub-title w3-text-grey">
+          Worked as a team to deploy a windows 10 system upgrade on workstations across branches nationwide.
+        </h6>
+      </div>
+      <div class="w3-col s12 m6 l3 w3-padding-small zoom">
+        <i class="fas fa-business-time w3-text-red w3-xlarge w3-padding-bottom"></i>
+        <h6 class="w3-margin-0 sub-title">September 2018 – July 2019</h6>
+        <h6 class="w3-margin-0 w3-text-grey sub-title">Datacenter - Stanbic Bank</h6>
+        <h3 class="sub-title">National Service</h3>
+        <h6 class="w3-margin-0 sub-title w3-text-grey">
+          National Service at Stanbic Bank Ghana.
+          Built Client computers and ensured that they met industry and banks security standards.
+        </h6>
+      </div>
+    </div>
+  </div><!-- Resume -->
+
+  <!-- Divider -->
+  <div class="divdercontainer">
+    <div class="divderinner"></div>
+  </div><!-- Divider -->
+
+  <div id="skills" class="parallax" style="background: url(images/coding.jpg) fixed no-repeat center; background-size: cover;"></div>
+
+  <div class="content w3-padding-128">
+
+    <div class="w3-center">
+      <i class="fas fa-laptop-code w3-text-white w3-xlarge w3-right w3-hide-small w3-padding-bottom"></i>
+      <h1 class="sub-heading w3-card ">Coding</h1>
+    </div>
+
+    <div class="w3-row">
+      <div class="w3-col l3 m6 w3-padding-large zoom">
+        <i class="fas fa-mobile w3-text-grey w3-large"></i>
+        <h3 class="sub-title w3-text-grey w3-padding-0">Flutter • Dart</h3>
+        <i class="fab fa-google w3-right w3-text-red w3-large"></i>
+      </div>
+
+      <div class="w3-col l3 m6 w3-padding-large zoom">
+        <i class="fab fa-php w3-text-grey w3-large"></i>
+        <h3 class="sub-title w3-text-grey w3-padding-0">PHP • MYSQL</h3>
+        <i class="fas fa-code w3-text-red w3-right  w3-large"></i>
+      </div>
+
+      <div class="w3-col l3 m6 w3-padding-large zoom">
+        <i class="fab fa-node w3-text-grey w3-large"></i>
+        <h3 class="sub-title w3-text-grey w3-padding-0">JavaScript</h3>
+        <i class="fas fa-code w3-text-red w3-right w3-large"></i>
+      </div>
+
+      <div class="w3-col l3 m6 w3-padding-large zoom">
+        <i class="fab fa-html5 w3-text-grey w3-large"></i>
+        <h3 class="sub-title w3-text-grey red w3-padding-0">HTML • CSS</h3>
+        <i class="fab fa-css3 w3-text-red w3-right w3-large"></i>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Divider -->
+  <div class="divdercontainer">
+    <div class="divderinner"></div>
+  </div><!-- Divider -->
+
+<div class="parallax" style="background: url(images/laptop.jpg) fixed no-repeat center; background-size: cover;"></div>
+
+  <div class="content w3-margin-bottomcustom">
+
+    <div class="w3-center">
+      <i class="fas fa-ruler w3-text-white w3-right w3-hide-small w3-xlarge w3-padding-bottom"></i>
+      <h1 class="sub-heading w3-card ">Design Skills</h1>
+    </div>
+
+    <div class="w3-row">
+      <div class="w3-col l8 m8 s12 w3-padding-medium">
+
+        <h6 class="sub-title w3-text-white">Web Design</h6>
+        <span class="w3-text-grey">90%</span>
+        <div class="container">
+          <div class="skills webdesign zoom"></div>
+        </div>
+
+        <h6 class="sub-title w3-text-white">Flutter UI</h6>
+        <span class="w3-text-grey">80%</span>
+        <div class="container">
+          <div class="skills flutter w3-text-red zoom"></div>
+        </div>
+
+        <h6 class="sub-title w3-text-white">Graphic Design</h6>
+        <span class="w3-text-grey">70%</span>
+        <div class="container">
+          <div class="skills graphicdesign w3-text-red zoom"></div>
+        </div>
+
+        <h6 class="sub-title w3-text-white">Photoshop</h6>
+        <span class="w3-text-grey">50%</span>
+        <div class="container">
+          <div class="skills photoshop zoom"></div>
+        </div>
+      </div>
+      <div class="w3-col l4 m4 s12  w3-padding-medium w3-center zoom">
+        <div class="w3-center">
+          <img class="w3-round w3-image" src="images/logo2.png" alt="Image of Leon">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Divider -->
+  <div class="divdercontainer">
+    <div class="divderinner"></div>
+  </div><!-- Divider -->
+
+  <div class="parallax" style="background: url(images/language.jpg) fixed no-repeat center; background-size: cover;"></div>
+
+  <div class="content w3-padding-128">
+    <i class="fas fa-globe w3-text-white w3-xlarge w3-right w3-hide-small"></i><br>
+    <div class="w3-center">
+      <h1 class="sub-heading w3-card ">Language Skills</h1>
+    </div>
+    <div class="w3-row">
+      <div class="w3-col l4 m4 w3-padding-medium w3-center zoom">
+        <i class="fas fa-language w3-text-white w3-xlarge"></i>
+        <h3 class="w3-margin-0 sub-title">English</h3>
+        <i class="fas fa-star w3-text-red w3-small"></i>
+        <i class="fas fa-star w3-text-amber w3-small"></i>
+        <i class="fas fa-star w3-text-black w3-tiny"></i>
+        <i class="fas fa-star w3-text-amber w3-small"></i>
+        <i class="fas fa-star w3-text-green w3-small"></i>
+        <h6 class="w3-margin-0 w3-text-white sub-title">Fluent</h6>
+      </div>
+
+      <div class="w3-col l4 m4 w3-padding-medium w3-center zoom">
+        <i class="fas fa-language w3-text-white w3-xlarge"></i>
+        <h3 class="w3-margin-0 sub-title">Spanish</h3>
+        <i class="fas fa-star w3-text-red w3-small"></i>
+        <i class="fas fa-star w3-text-amber w3-small"></i>
+        <i class="fas fa-star w3-text-amber w3-small"></i>
+        <i class="fas fa-star w3-text-red w3-small"></i>
+        <h6 class="w3-margin-0 w3-text-white sub-title">Conversational</h6>
+      </div>
+
+      <div class="w3-col l4 m4 w3-padding-medium w3-center zoom">
+        <i class="fas fa-language w3-text-white w3-xlarge"></i>
+        <h3 class="w3-margin-0 sub-title">French</h3>
+        <i class="fas fa-star w3-text-blue w3-small"></i>
+        <i class="fas fa-star w3-text-white w3-small"></i>
+        <i class="fas fa-star w3-text-red w3-small"></i>
+        <h6 class="w3-margin-0 w3-text-white sub-title">Learner</h6>
+      </div>
+
+
+    </div>
+  </div>
+
+  <!-- Divider -->
+  <div class="divdercontainer">
+    <div class="divderinner"></div>
+  </div><!-- Divider -->
+
+  <div class="parallax" style="background: url(images/contact.jpg) fixed no-repeat center; background-size: cover;"></div>
+
+
+  <!-- Reach out -->
+  <div  id="contact" class="content w3-padding-128">
+    <div>
+      <i class="fas fa-envelope w3-text-white w3-xlarge w3-right w3-hide-small"></i><br>
+      <h1 class="sub-heading w3-card ">
+        Get in touch
+      </h1>
+    </div>
+
+    <div class="w3-row">
+      <div class="w3-col w3-padding-medium ">
+
+        <h6 class="sub-title w3-text-grey">
+          I just might work on your project or we might collaborate and work on a project together.
+          Feel free to say hello. I will definitely try to get back to you.
+        </h6>
+        <br>
+        <div class="w3-center">
+          <a href="mailto:work.leondarko@gmail.com">
+            <button class="w3-button w3-border w3-border-white w3-wide zoom
+              w3-black w3-hover-white  w3-large w3-card w3-round-xxlarge">
+              Say Hello
+            </button>
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+  </div><!-- Reach out -->
+
+  <!-- Footer -->
+  <div class="footernavbar animate-bottom-footer">
+    <span class="w3-hide-small">Designed & Built by Leon Darko</span>
+    <a class="w3-hide-medium w3-hide-large arrow-up" href="#about"><i class="fas fa-arrow-up w3-hover-text-red"></i></a>
+    <a class="w3-hover-text-brown footericon zoom" href="https://www.instagram.com/thah_leon/"><i class="fab fa-instagram"></i></a>
+    <a class="w3-hover-text-light-blue footericon zoom" href="https://twitter.com/thah_leon"><i class="fab fa-twitter"></i></a>
+    <a class="w3-hover-text-blue footericon zoom" href="https://www.linkedin.com/in/leon-darko-914401188/"><i class="fab fa-linkedin"></i></a>
+    <a class="w3-hover-text-red footericon zoom" href="https://github.com/GitOptimistLeon"><i class="fab fa-github"></i></a>
+  </div><!-- Footer -->
+
+</div>
+
+<script src="js/myLoader.js"></script>
+<script src="js/myCarousel.js"></script>
+<script src="js/mySnackBar.js"></script>
+<script src="js/myFullScreenNav.js"></script>
+<script src="js/myTyperWriter.js"></script>
+<script src="js/myStickyNav.js"></script>
+
+</body>
+</html>
