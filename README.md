@@ -1,3 +1,3 @@
 
-This is just a resume webpage I created.
+This is just a résumé webpage I created.
 I think its awesome. You should check it out.
